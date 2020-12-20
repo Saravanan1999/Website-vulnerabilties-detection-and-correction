@@ -1,0 +1,3 @@
+ReWriteEngine On
+
+RewriteRule ^profile/([^/\.]+)?$ /home.php?username=$admin [L]
